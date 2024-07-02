@@ -1,5 +1,8 @@
 import random
 
+name = input("Who are you? \n> ")
+print(f"Hello, {name}!")
+
 print("Tossing a coin...")
 results = []
 for i in range(3):
